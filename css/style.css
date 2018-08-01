@@ -150,6 +150,17 @@ margin: 20px auto;
 
 }
 
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: red;
+  color: white;
+}
+
 table td {
 
   padding: 10px 10px;
