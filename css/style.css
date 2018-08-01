@@ -164,6 +164,10 @@ margin: 20px auto;
   color: white;
 }
 
+#sidebar a{
+  color:#FFFFFF ;
+}
+
 table td {
 
   padding: 10px 10px;
