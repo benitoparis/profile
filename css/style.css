@@ -170,6 +170,7 @@ margin: 20px auto;
 
 #sidebar ul li{
   display:block;
+  padding-left: 0px;
 }
 
 table td {
