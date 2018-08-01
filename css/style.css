@@ -168,6 +168,10 @@ margin: 20px auto;
   color:#FFFFFF ;
 }
 
+#sidebar ul li{
+  display:block;
+}
+
 table td {
 
   padding: 10px 10px;
