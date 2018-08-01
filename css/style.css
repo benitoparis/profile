@@ -183,6 +183,10 @@ table td {
     width: 700px;
   }
 
+body{
+  background-color:#F4FF33 ;
+}
+
 h1,h2,h3{
 
 font-family:Roboto, Arial, Sans-Serif;
@@ -197,6 +201,10 @@ font-size:20px;
     width: 500px;
   }
 
+  body{
+  background-color:#7DE33A ;
+}
+
 h1,h2,h3{
 font-family:Roboto, Arial, Sans-Serif;
 text-align: center;
@@ -209,9 +217,14 @@ font-size:15px;
     width: 300px;
   }
 
+  body{
+  background-color: #13CED7;
+}
+
   h1,h2,h3{
 font-family:Roboto, Arial, Sans-Serif;
 text-align: center;
 font-size:10px;
 }
+
 }
