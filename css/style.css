@@ -170,6 +170,11 @@ margin: 20px auto;
 
 #sidebar ul li{
   display:block;
+
+}
+
+#sidebar ul{
+
   padding-left: 0px;
 }
 
