@@ -1,0 +1,179 @@
+body{
+
+font-family: "Open Sans", Arial, Sans-Serif;
+font-size: "12px";
+background-color: #CCC7B9;
+color:#595959;
+line-height:2;
+font-weight: 300;
+
+
+
+}
+
+h1,h2,h3{
+
+font-family:Roboto, Arial, Sans-Serif;
+text-align: center;
+font-size:25px;
+}
+
+
+a{
+
+text-decoration: none;
+
+}
+
+a:hover{
+  opacity:1;
+  background-color: green;
+}
+
+
+.btn{
+
+font-size: 25px;
+padding:10px 15px;
+border-radius:5px;
+width: fit-content;
+background-color: #F78181;
+color:#FFFFFF;
+text-align: center;
+margin-bottom: 15px;
+}
+
+
+
+.img{
+
+width: 200px;
+height: 200px;
+border: 2px solid #FFFFFF;
+
+}
+
+.red{
+  color: #FF0000;
+}
+
+.white{
+color:#FFFFFF;
+
+}
+
+ul li {
+  display:inline;
+  margin:10px;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.imgcircle {
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    opacity:0.5;
+    border: 2px solid #FFFFFF ;
+
+}
+
+
+#headerprofil{
+  background-color: #EAF9D9;
+
+  margin: auto;
+  padding:20px;
+  overflow: hidden;
+  border-radius:5px;
+  box-shadow: 5px 2px 2px #D8D8D8;
+
+}
+
+
+.textaligncenter{
+  text-align: center;
+}
+
+#socialnetwork{
+  background-color: #E2D4BA;
+
+    margin: auto;
+    height: 100px;
+    border-radius:5px;
+      box-shadow: 5px 2px 2px #D8D8D8;
+
+
+}
+
+#socialnetwork ul{
+margin: 20px auto;
+}
+
+#portfolio{
+  background-color: #AF7A6D;
+  border-radius:5px;
+  margin: auto;
+        box-shadow: 5px 2px 2px #D8D8D8;
+
+}
+
+#portfolio table {
+  margin: 0 auto;
+}
+
+#favoritemovies{
+  background-color: #E2D4BA;
+  border-radius:5px;
+    margin: auto;
+      box-shadow: 5px 2px 2px #D8D8D8;
+
+}
+
+#programminglanguages{
+  background-color: #EAF9D9;
+  border-radius:5px;
+    margin: auto;
+      box-shadow: 5px 2px 2px #D8D8D8;
+
+}
+
+#sportteams{
+  background-color: #AF7A6D;
+  border-radius:5px;
+    margin: auto;
+      box-shadow: 5px 2px 2px #D8D8D8;
+
+}
+
+table td {
+
+  padding: 10px 10px;
+}
+
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
